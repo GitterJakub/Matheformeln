@@ -12,18 +12,9 @@ public class Polynomdivision {
     }
 
     //Calculate the quotient
-//    public void calculate() {
-//        int [] dividendKoeffizienten = this.dividend.getKoeffizienten();
-//        int [] divisorKoeffizienten = this.divisor.getKoeffizienten();
-//        int [] quotientKoeffizienten = this.quotient.getKoeffizienten();
-//
-//        for (int i = 0; i < quotientKoeffizienten.length; i++) {
-//            quotientKoeffizienten[i] = dividendKoeffizienten[i] / divisorKoeffizienten[0];
-//            for (int j = 0; j < divisorKoeffizienten.length; j++) {
-//                dividendKoeffizienten[i+j] -= quotientKoeffizienten[i] * divisorKoeffizienten[j];
-//            }
-//        }
-//    }
+    private void calculate() {
+
+    }
 
     //Calculate the qutioent and return it
     public Funktion getQuotient() {
